@@ -1,9 +1,7 @@
-PSU Search 7.20-dev
+PSU Search 7.X-dev
 
-The project has also been renamed to psu_search .
-
-This is a forked version of the original implimentation which used a template
-file to render the form and javascript to control the functionality.
+This is a forked version of the psu-search project by psudug and btopro. This fork was created
+to style this search bar and to make it more repsonsive to different screen sizes.
 
 This version utilizes the Form API to display render the form and control
 the functionality.
