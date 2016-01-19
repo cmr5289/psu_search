@@ -1,10 +1,23 @@
 #psu-search-form {
+  float:right;
   padding: 0;
   position: relative;
   margin-left: 2em;
   display: block;
   overflow: hidden;
-  max-width: 250px;
+  
+  width: 370px;
+}
+
+@media (max-width: 399px) and (min-width: 320px) {
+  #psu-search-form {
+    width: 340px;
+  }
+}
+@media (max-width: 320px) {
+  #psu-search-form {
+    width: 300px;
+  }
 }
 
 #psu-search-form .block__title,
@@ -16,7 +29,7 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 #psu-search-form #edit-textfield {
-  border: none;
+  border: 1px solid black;
 }
 #psu-search-form input[type="text"] {
   background-color: white;
@@ -27,17 +40,17 @@
 #psu-search-form input[type="submit"] {
   position: absolute;
   right: 0;
-  top: 7px;
-  border: none;
-  background: url("search-icon-small.png") no-repeat center center;
+  top: 0px;
+ border: 1px solid black;
+  background: url("ic_search_black_24px.svg") no-repeat center center;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   font-size: 0;
   line-height: 0;
   width: 16px;
-  height: 15px;
-  margin: 0;
+  height: 38px;
+  margin: 0;  
 }
 #psu-search-form .form-type-textfield {
   margin: 0;
